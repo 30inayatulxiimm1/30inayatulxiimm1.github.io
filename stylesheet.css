@@ -1,157 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-      font-family: "Avenir Next";
+  margin: 0;
+  font-family: "Lucida Grande";
 }
 
-li {
-	  list-style: none;
+a {
+  text-decoration: none;
 }
 
-.kop {
-	  background-color: #000080;
-	  color: #fff;
-	  height: 50px;
-}
-	   
-.header {
-	  background-color: #87cefa;
-	  color: #fff;
-	  height: 90px;
+.clear {
+  clear: left;
 }
 
-.header li:hover {
-	  background-color: red; 
-	  font-size:25px;
-	  color: blue;
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.header-logo img{
-	  float: left;
-	  width: 80px;
-	  height: 80px;
-	  border: 5px solid blue;
-	  border-radius: 5px;
-	  margin-left: 20px;
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
-.header-logo2 {
-	  float: right;
-	  font-size: 25px;
-	  padding: 26px 30px;
-	  color:gold;
-	  background-color: red;
-	  border:4px solid blue;
-	  border-radius: 5px;
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
 }
 
-.header-list li {
-	  float: left;
-	  padding: 33px 20px;
-	  border-radius: 30px;
-      border:1px solid blue;
-      padding : 20px 40px;
-      margin-left: 20px ;
-      margin-top:10px;
-      background-color: blue;
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
 }
 
-.main {
-	  padding: 100px 80px; 
-      background-color: #87CEFA;
-       	   
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
 }
 
-.copy-container span {
-      color: #ff4a4a;	
+.btn-wrapper p {
+  margin: 10px 0;
 }
 
-.contents1 {
-	  height: 80px;
-	  text-align:  left;
-	  margin-top: 20px;
-	  background-color : #87CEFA ;
+.signup {
+  background-color: #239b76;
 }
 
-.contents1 p{
-	  text-align:center;
-	  font-size:14px;
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
 }
 
-.contents2  {
-	  height: 520px;
-	  margin-top: 100px;
+.twitter {
+  background-color: #55acee;
 }
 
-.contents2 h3 {
-	color : red;
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
 }
 
-.contents2 h5{
-	  color: #ff4a4a;
+.btn:hover {
+  opacity: 1;
 }
 
-.contents2 .contents-item2 p {
-	  font-size: 14px;
-	  text-align:center;
-	  margin-top: 30px;
-	  border:2px solid blue;
-	  border-radius:25px;
-	  background-color:red;
-	  color:white
-}
-  
-.contents2 .contents-item2 p:hover {
-	  font-size: 14px;
-	  text-align:center;
-	  margin-top: 30px;
-	  border:2px solid red;
-	  border-radius:25px;
-	  background-color: blue;
-	  color:white
-}
-  
-.contents-item {
-	  float: left;
-	  margin-right: 20px;
-	  padding: 10px 10px;
+.fa {
+  margin-right: 5px;
 }
 
-.contents-item2 {
-	  float: left;
-	  margin-right: 20px;
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
 
-.contents3 {
-	  margin-top: 40px;
-	  margin-left: 60px;
-	  width: 500px 1000px;
-	  background-color : white;
+.logo {
+  width: 124px;
+  margin-top: 20px;
 }
 
-.contents3 p{
-	  font-weight: normal;
+.header-left {
+  float: left;
 }
 
-.footer {
-	  background-color: #000080;
-	  height: 40px;
-	  color: #fff;
-	  padding: 40px;
+.header-right {
+  float: right;
+  margin-right: -25px;
 }
 
-.footer-logo {
-      font-size: 32px;
-      float: left;
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
-.footer-list {
-      float: right;
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.footer-list2 {
-      text-align: center;
-      color: gold;
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
-.footer-list li { 
-      padding-bottom: 10px;
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
